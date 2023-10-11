@@ -14,10 +14,10 @@ build:
 
 requirements:
   run:
-    - cuda-nsight 12.0.78
+    - cuda-nsight 12.0.78               # [not aarch64]
     - nsight-compute 2022.4.0.15
     - cuda-nvml-dev 12.0.76
-    - cuda-nvvp 12.0.90
+    - cuda-nvvp 12.0.90                 # [not aarch64]
     - cuda-libraries-dev {{ version }}
 
 test:
