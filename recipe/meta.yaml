@@ -14,7 +14,7 @@ build:
 
 requirements:
   run:
-    - cuda-nsight 12.0.78               # [linux64 or ppc64le]
+    - cuda-nsight 12.0.78               # [not (aarch64 or win)]
     - nsight-compute 2022.4.0.15
     - cuda-nvml-dev 12.0.76
     - cuda-nvvp 12.0.90                 # [not aarch64]
