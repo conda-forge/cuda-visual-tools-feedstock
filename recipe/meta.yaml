@@ -1,4 +1,4 @@
-{% set version = "12.3.2" %}
+{% set version = "12.4.0" %}
 
 package:
   name: cuda-visual-tools
@@ -14,10 +14,10 @@ build:
 
 requirements:
   run:
-    - cuda-nsight 12.3.101               # [not (aarch64 or win)]
-    - nsight-compute 2023.3.1.1
-    - cuda-nvml-dev 12.3.101
-    - cuda-nvvp 12.3.101                 # [not aarch64]
+    - cuda-nsight 12.4.99               # [not (aarch64 or win)]
+    - nsight-compute 2024.1.0.13
+    - cuda-nvml-dev 12.4.99
+    - cuda-nvvp 12.4.99                 # [not aarch64]
     - cuda-libraries-dev {{ version }}
 
 test:
