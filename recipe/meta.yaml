@@ -10,11 +10,11 @@ source:
 
 build:
   number: 0
-  skip: true  # [osx]
+  skip: true  # [osx or ppc64le]
 
 requirements:
   run:
-    - cuda-nsight 12.5.39               # [not (aarch64 or win)]
+    - cuda-nsight 12.5.39               # [linux64]
     - nsight-compute 2024.2.0.16
     - cuda-nvml-dev 12.5.39
     - cuda-nvvp 12.5.39                 # [not aarch64]
