@@ -17,7 +17,6 @@ requirements:
     - cuda-nsight 13.0.39               # [linux64]
     - nsight-compute 2025.3.0.19
     - cuda-nvml-dev 13.0.39
-    - cuda-nvvp 12.9.79                 # [not aarch64]
     - cuda-libraries-dev {{ version }}
 
 test:
